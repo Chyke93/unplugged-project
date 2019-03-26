@@ -99,7 +99,120 @@ textarea {
 
 
 
+header,
+footer {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 
+header .content-wrapper {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+header nav {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+header nav ul {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*****MAIN CSS*****/
+.hero-area {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.aside {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.contact-section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.faq .content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.faq .content-wrapper
+
+.features {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.features .features-items {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.reviews {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.mission {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.faq {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.faq content-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*****HEADER CSS*****/
+footer .social {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-icons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
 
 

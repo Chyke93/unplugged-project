@@ -96,8 +96,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*****GENERAL CSS*****/
+.content-wrapper {
+    width: 100%;
+}
 
 
+/*****HEADER CSS*****/
+header {
+    padding: 15px 0;
+}
 
 header,
 footer {
@@ -112,6 +120,11 @@ header .content-wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin: 0;
+}
+
+.header-divider {
+    width: 100%;
 }
 
 header nav {
@@ -119,16 +132,22 @@ header nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    width: 60%;
 }
 
 header nav ul {
     align-items: center;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 
 /*****MAIN CSS*****/
+main h1 {
+    padding: 20px;
+}
+
 .hero-area {
     align-items: center;
     display: flex;
@@ -148,18 +167,33 @@ header nav ul {
     flex-flow: row wrap;
 }
 
+.faq {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 .faq .content {
     display: flex;
     flex-flow: row wrap;
 }
 
-.faq .content-wrapper
+.faq .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: center;
+}
 
 .features {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+
+.features article {
+    width: 55%;
 }
 
 .features .features-items {
@@ -169,11 +203,23 @@ header nav ul {
     justify-content: center;
 }
 
+.features p {
+    margin: 0;
+}
+
 .reviews {
     align-items: center;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+}
+
+.reviews h3 {
+    width: 90%;
+}
+
+.sign-up-area .form-description {
+    margin: 20px;
 }
 
 .mission {
@@ -188,20 +234,14 @@ header nav ul {
     justify-content: center;
 }
 
-.faq {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.faq content-wrapper {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
 
 
 /*****HEADER CSS*****/
+footer .content-wrapper {
+    width: 55%;
+    margin: 50px, 0;
+}
+
 footer .social {
     align-items: center;
     display: flex;
@@ -214,7 +254,9 @@ footer .social-icons {
     justify-content: center;
 }
 
-
+footer p {
+    margin: 0;
+}
 
 
 

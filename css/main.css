@@ -118,12 +118,14 @@ a {
 }
  
 h2 {
+    color: #e2e3ed;
     font-family: 'Poppins', sans-serif;
     font-size: 1.25em;
 }
  
 h3, 
 h4 {
+    color: #e2e3ed;
     font-family: 'Poppins', sans-serif;
     font-size: 1.125em;
 }
@@ -145,18 +147,40 @@ address {
 }
  
 .content-wrapper {
- 
+    width: 100%;
 }
 
 
-/*****GENERAL CSS*****/
-.content-wrapper {
+/*****FORM STYLES*****/
+aside .form {
+    margin-top: 30px;
+}
+   
+input[type=text] {
+    box-sizing: border-box;
     width: 100%;
+    color: #2a423a;
+    font-style: italic;
+}
+
+input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
 /*****HEADER CSS*****/
 header {
+    background-color: #000000;
     padding: 15px 0;
 }
 
@@ -198,6 +222,7 @@ header nav ul {
 
 /*****MAIN CSS*****/
 main h1 {
+    color: #e2e3ed;
     padding: 20px;
 }
 
@@ -215,13 +240,20 @@ main h1 {
     justify-content: center;
 }
 
+.about {
+    background-color: #527158;
+}
+
 .contact-section {
+    align-items: center;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 .faq {
     align-items: center;
+    background-color: #527158;
     display: flex;
     justify-content: center;
 }
@@ -232,9 +264,9 @@ main h1 {
 }
 
 .faq .content-wrapper {
+    color: #e2e3ed;
     display: flex;
     flex-flow: row wrap;
-    
     justify-content: center;
 }
 
@@ -257,11 +289,13 @@ main h1 {
 }
 
 .features p {
+    color: #e1e2ea;
     margin: 0;
 }
 
 .reviews {
     align-items: center;
+    background-color: #527158;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -271,7 +305,12 @@ main h1 {
     width: 90%;
 }
 
-.sign-up-area .form-description {
+#sign-up-area {
+    background-color: ;
+}
+
+#sign-up-area .form-description {
+    color: #e2e3ed;
     margin: 20px;
 }
 
@@ -281,15 +320,13 @@ main h1 {
     justify-content: center;
 }
 
-.contact-section {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+
+
+/*****FOOTER CSS*****/
+footer {
+    background-color: #000000;
 }
 
-
-
-/*****HEADER CSS*****/
 footer .content-wrapper {
     width: 55%;
     margin: 50px, 0;
@@ -308,6 +345,7 @@ footer .social-icons {
 }
 
 footer p {
+    color: #ffffff;
     margin: 0;
 }
 
@@ -514,7 +552,7 @@ footer p {
 
     .contact-section,
     .content-wrapper h2 {
-        width: 80%;
+        width: 100%;
     }
 
     .contact-content {

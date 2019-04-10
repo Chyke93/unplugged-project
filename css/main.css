@@ -439,6 +439,22 @@ ABOUT PAGE
     width: 80%;
 }
 
+.map figure {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 80%;
+    width: 100%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .about .contact-section {
     align-items: center;
     display: flex;

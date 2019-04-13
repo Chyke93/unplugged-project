@@ -388,7 +388,7 @@ FAQ PAGE
     color: #e2e3ed;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-start;
     margin: 0;
     padding: 0;
     width: 80%;
@@ -531,16 +531,34 @@ footer .social {
     width: 100%;
 }
 
-.social .social-icons {
+.social-icons {
     align-items: center;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    width: 100%;
 }
 
-.social figure a img {
+.social-icons p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    width: 30%;
+}
+
+.social a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
     background-color: #527158;
-    border-radius: 5px;
+    border-radius: 50%;
+    width: 45%;
+}
+
+.social i {
+    font-size: 1.3em;
+    padding: 10px 0 10px 0;
 }
 
 footer .copyright {
@@ -551,7 +569,8 @@ footer .copyright {
     width: 100%;
 }
 
-footer p {
+.copyright p,
+.contact p {
     color: #ffffff;
     margin: 0;
 }
@@ -888,6 +907,11 @@ footer p {
     .reviews article div {
         font-size: 1.5em;
         width: 80%;
+    }
+
+    /* Footer */
+    .social a {
+        width: 35%;
     }
     
 /* ==========================================================================

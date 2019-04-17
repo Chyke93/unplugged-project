@@ -232,7 +232,7 @@ main {
 
 main h1 {
     color: #e2e3ed;
-    font-size: 1.9em;
+    font-size: 2em;
     font-weight: 510;
     padding-top: 100px;
     width: 80%;
@@ -297,7 +297,7 @@ input[type=button] {
 
 .features h2 {
     width: 80%;
-    font-size: 1.3em;
+    font-size: 1.9em;
 }
 
 .features .features-content {
@@ -348,7 +348,7 @@ input[type=button] {
 }
 
 .reviews h2 {
-    font-size: 1.8em;
+    font-size: 1.9em;
     width: 80%;
 }
 
@@ -357,7 +357,7 @@ input[type=button] {
 }
 
 .reviews h3 {
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-weight: 500;
 }
 
@@ -400,6 +400,11 @@ FAQ PAGE
     margin-bottom: 30px;
 }
 
+.faq h2 {
+    font-size: 1.9em;
+    font-weight: 500;
+}
+
 .faq h4 {
     font-weight: 500;
     margin: 0;
@@ -416,7 +421,7 @@ ABOUT PAGE
     align-items: center;
     background-color: #527158;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
 }
 
@@ -438,25 +443,24 @@ ABOUT PAGE
     color: #f0f0f0;
 }
 
-.about .map {
-    margin: 20px 0 20px 0;
-    width: 80%;
+.map {
+    width: 100%;
 }
 
 .map figure {
-    height: 0;
+    width: 100%;
+    height: 0; 
+    padding-bottom: 80%; 
     overflow: hidden;
     position: relative;
-    padding-bottom: 0;
-    width: 80%;
 }
-
+ 
 .map iframe {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
 }
 
 .about .contact-section {
@@ -812,6 +816,7 @@ footer .copyright {
     }
 
     .mission-content p {
+        font-size: 1.1em;
         width: 45%;
     }
 
@@ -874,7 +879,12 @@ footer .copyright {
     
     /* Aside */
     aside .content-wrapper {
+        align-content: flex-start;
         justify-content: space-around;
+    }
+
+    aside .content-wrapper p {
+        font-size: 1.2em;
     }
     
     aside .content-wrapper .form-description,
@@ -896,7 +906,11 @@ footer .copyright {
     }
     
     .features article {
-        flex-basis: 160px;
+        flex-basis: 200px;
+    }
+
+    .features article p {
+        font-size: 1.1em;
     }
     
     /* Reviews */
@@ -926,6 +940,10 @@ footer .copyright {
     .contact-section .content-wrapper h2 {
         margin-bottom: 50px;
     }
+
+    .mission p {
+        font-size: 1.2em;
+    }
     
     
 /* ==========================================================================
@@ -939,7 +957,14 @@ footer .copyright {
     .faq-content {
         flex-basis: 450px;
     }
-    
+
+    .faq h4 {
+        font-size: 1.5em;
+    }
+
+    .faq p {
+        font-size: 1.2em;
+    }
 }
 
 @media print,
